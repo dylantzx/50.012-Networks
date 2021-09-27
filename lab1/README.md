@@ -1,7 +1,6 @@
 # Lab 1: A Simple Web Proxy Server
----
+
 ## Code description
----
 The script is written by following the skeleton code provided.
 
 A welcome socket is first created, and this is the server socket for the proxy that will listen for any clients.

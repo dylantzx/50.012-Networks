@@ -22,7 +22,7 @@ A new thread will be started to handle each client. Since the message received a
 
 After extracting the necessary information from the message, we change the `Connection: keep-alive` to `Connection: close`, so that the connection is not persistent and closes once done.
 
-`message=message.replace("Connection: keep-alive","Connection: close"`
+`message=message.replace("Connection: keep-alive","Connection: close")`
 
 We then check if we have cached the content before.
 

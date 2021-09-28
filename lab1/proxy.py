@@ -141,7 +141,7 @@ try:
 		# Start receiving data from the client
 		# Fill in start 
 		clientFacingSocket, addr = welcomeSocket.accept()
-		print('Received a connection from:', addr)
+		# print('Received a connection from:', addr)
 		# Fill in end
 
 		# the following function starts a new thread, taking the function name as the first argument, and a tuple of arguments to the function as its second argument

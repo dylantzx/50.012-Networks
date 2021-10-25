@@ -1,0 +1,12 @@
+POST http://127.0.0.1:8000/records HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "Cecelia Tan",
+    "id": "1004001",
+    "age" : 19,
+    "email": "cecelia4001@gmail.com",
+    "phone": "89101112"
+}
+
+###
